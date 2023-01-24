@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes - Desafío Alura</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logo_Alura.png" alt="logo de Alura" class="logo">
+    </header>
+    <main>
+        <section class="text-input">
+            <textarea class="textarea" placeholder="Ingresá tu mensaje a encriptar/desencriptar..." required></textarea>
+            <div class="info">
+                <img src="imagenes/bi_exclamation-circle-fill.png" alt="">
+                <h6>Sólo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button id="encrypt" class="btn-encriptar" onclick="btnEncrypt()">Encriptar</button>
+                <!-- <button class="btn-encriptar">Encriptar</button> -->
+                <button id="decrypt" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="text-output">
+            <div class="init-content" id="init">
+                <img class="muñeco" src="imagenes/Muñeco.png" alt="muñeco de Alura">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="result-content" id="result">
+                <textarea class="output-area" id="text_output" disabled></textarea>
+                <button id="copy" class="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>@ 2023, hecho con esfuerzo y amor por Juan Pablo Avila.</p>
+        <a href="https://www.linkedin.com/in/juampiavila/"><img class="logos-footer" src="imagenes/linkedin.png" alt="logo linkedin"></a>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
