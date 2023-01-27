@@ -14,6 +14,7 @@
 <body>
     <header>
         <img src="imagenes/Logo_Alura.png" alt="logo de Alura" class="logo">
+        <h1 class="header-h1">Encriptador de Mensajes - Challenge 1 Alura Latam</h1>
     </header>
     <main>
         <section class="text-input">
@@ -32,17 +33,18 @@
             <div class="init-content" id="init">
                 <img class="muñeco" src="imagenes/Muñeco.png" alt="muñeco de Alura">
                 <p>Ningún mensaje fue encontrado</p>
-                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <p>Ingresa el texto que desees<br>encriptar o desencriptar.</p>
             </div>
-            <div class="result-content" id="result">
+            <div class="result-content invisible" id="result">
                 <textarea class="output-area" id="text_output" disabled></textarea>
-                <button id="copy" class="btn-copiar">Copiar</button>
+                <button id="copy" class="btn-copiar" onclick="btnCopy()">Copiar</button>
             </div>
         </section>
     </main>
     <footer>
-        <p>@ 2023, hecho con esfuerzo y amor por Juan Pablo Avila.</p>
+        <p>@ 2023. Hecho con esfuerzo y amor por Juan Pablo Avila.</p>
         <a href="https://www.linkedin.com/in/juampiavila/"><img class="logos-footer" src="imagenes/linkedin.png" alt="logo linkedin"></a>
+        <a href="https://github.com/avilajuanp"><img src="imagenes/github.png" alt="logo github" class="logos-footer"></a>
     </footer>
 </body>
 <script src="index.js"></script>
