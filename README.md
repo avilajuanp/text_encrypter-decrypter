@@ -12,13 +12,13 @@
 
 Encriptador de texto desarrollado con JavaScript, HTML y CSS para el challenge del **_Proyecto ONE_** de **Oracle+Alura LATAM**.
 
-El challenge consiste en construir un encriptador/desencriptador de texto que será ingresado por el usuario y presentarlo en su forma encriptada o desencriptada.
+El challenge consiste en construir un encriptador/desencriptador de texto, que será ingresado por el usuario, para luego presentarlo en su forma encriptada o desencriptada.
 
 ---
 
-## 🔑 Llaves de encriptacion
+## 🔑 Llaves de encriptación
 
-Las llaves de encriptacion solicitadas son las siguientes:
+Las llaves de encriptación solicitadas son las siguientes:
 
 - La letra "**a**" es convertida a "**ai**".
 - La letra "**e**" es convertida a "**enter**".
@@ -31,8 +31,8 @@ Las llaves de encriptacion solicitadas son las siguientes:
 ## ✔️ Requisitos
 
 - Debe funcionar solo con letras minúsculas.
-- No deben ser utilizados letras con acentos ni caracteres especiales.
-- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+- No deben ser utilizadas letras con acentos ni caracteres especiales.
+- Debe ser posible convertir una palabra a la versión encriptada. También debe poder devolver una palabra encriptada a su versión original.
 
 ```
 Por ejemplo:
@@ -40,7 +40,7 @@ Por ejemplo:
 gaitober" => "gato"
 ```
 
-- La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- La página debe tener campos para insertar el texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones.
 - El resultado debe ser mostrado en la pantalla.
 
 ### Extras:
